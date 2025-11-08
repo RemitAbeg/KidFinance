@@ -22,3 +22,9 @@ export const wagmiAdapter = new WagmiAdapter({
 });
 
 export const config = wagmiAdapter.wagmiConfig;
+
+export {
+  choreManagerAddress,
+  choreManagerAbi,
+  type ChoreManagerAbi,
+} from "./choreManager";
